@@ -1,5 +1,6 @@
 # Custom ignores
 screenshots
+test-results
 playwright-report
 
 # Logs

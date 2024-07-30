@@ -4,13 +4,14 @@ const requests: any = [];
 
 // Example test suite
 test.describe('Example Test Suite', () => {
+
     // Example test case
     test('should navigate to the page and check title', async ({ page, context }) => {
         // Collect all requests and their responses
         page.on('response', async response => {
             const request = response.request();
             const url = request.url();
-            const setCookieHeader =  (await response.allHeaders())['set-cookie'];
+            const setCookieHeader = (await response.allHeaders())['set-cookie'];
 
             // Exclude requests to partytown worker
             // if (url === 'https://tripleten.com/se-light/~partytown/debug/proxytown') {
@@ -20,6 +21,35 @@ test.describe('Example Test Suite', () => {
             if (setCookieHeader) {
                 requests.push({ url, setCookieHeader });
             }
+        });
+
+        await page.addInitScript(() => {
+            // Save the original document.cookie property descriptor
+            const originalCookieDescriptor: any = Object.getOwnPropertyDescriptor(Document.prototype, 'cookie');
+
+            // Define a new property descriptor for document.cookie
+            Object.defineProperty(window.document, 'cookie', {
+                configurable: true,
+                enumerable: true,
+                get() {
+                    // Return the current cookies
+                    return originalCookieDescriptor.get.call(window.document);
+                },
+                set(value) {
+                    // Capture the stack trace to identify the source
+                    try {
+                        throw new Error('Tracking cookie set');
+                    } catch (e: any) {
+                        console.log('New cookie set:', value);
+                        console.log('Stack trace:', e.stack);
+                    }
+
+                    // Set the cookie using the original descriptor's setter
+                    originalCookieDescriptor.set.call(window.document, value);
+                }
+            });
+
+            window.console.log('addInitScript');
         });
 
         // Navigate to the page
