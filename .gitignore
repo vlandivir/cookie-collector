@@ -1,3 +1,7 @@
+# Custom ignores
+screenshots
+playwright-report
+
 # Logs
 logs
 *.log
