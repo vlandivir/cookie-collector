@@ -2,33 +2,69 @@ import { test, expect } from '@playwright/test';
 
 declare global {
     interface Window {
-        clientSideCookies: any;
+        clientSideCookies: {
+            url: string;
+            cookieString: string;
+        }[];
     }
 }
 
-const requests: any = [];
+interface CookieRequest {
+    url: string;
+    cookies: {
+        name: string;
+        cookie: string;
+    }[];
+    type: 'client' | 'server';
+}
+
+const requests: CookieRequest[] = [];
 
 function parseCookies(cookieString: string) {
     return cookieString.split('\n').map(cookie => {
         let [cookiePair, ...attributePairs] = cookie.split(';').map(part => part.trim());
-        let [name, value] = cookiePair.split('=');
+        let [name] = cookiePair.split('=');
 
-        let cookieObj: any = { name, value, attributes: {} };
-
+        const attribs: Record<string, string> = {}
         attributePairs.forEach(attr => {
             let [key, val] = attr.split('=').map(part => part.trim());
-            cookieObj.attributes[key.toLowerCase()] = val || true;
+            attribs[key.toLowerCase()] = val || 'true';
         });
-
-        return cookieObj;
+        return {name: [attribs['domain'], name].join(' ').trim(), cookie};
     });
+}
+
+function getUrl(url: string) {
+    const parsedUrl = new URL(url);
+    return [parsedUrl.host, parsedUrl.pathname.split(':').shift()].join('');
 }
 
 // Example test suite
 test.describe('Example Test Suite', () => {
     test.afterAll(async () => {
-        console.log('Requests with Set-Cookie headers:');
-        console.log(JSON.stringify(requests, null, 2));
+        // console.log(JSON.stringify(requests, null, 2));
+
+        const collectedCookies: Record<string, {type: string, urls: string[]}> = {};
+        requests.forEach((r) => {
+            const { url, cookies, type } = r;
+            cookies.forEach(c => {
+                const { name } = c;
+                if (!collectedCookies[name]) {
+                    collectedCookies[name] = { type, urls: [] }
+                }
+                if (!collectedCookies[name].urls.includes(url)) {
+                    collectedCookies[name].urls.push(url);
+                }
+            })
+        });
+
+        // console.log(JSON.stringify(collectedCookies, null, 2))
+        console.log(JSON.stringify(
+            Object.keys(collectedCookies).map((k) => {
+                const { type, urls } = collectedCookies[k];
+                return `${type}    ${k}    ${urls.join()}`
+            }).sort(), null, 2
+        ));
     });
 
     // Example test case
@@ -36,7 +72,8 @@ test.describe('Example Test Suite', () => {
         // Collect all requests and their responses
         page.on('response', async response => {
             const request = response.request();
-            const url = new URL(request.url()).host;
+
+            const url = getUrl(request.url());
             const setCookieHeader = (await response.allHeaders())['set-cookie'];
 
             // Exclude requests to partytown worker
@@ -46,7 +83,7 @@ test.describe('Example Test Suite', () => {
 
             if (setCookieHeader) {
                 const cookies = parseCookies(setCookieHeader)
-                requests.push({ url, cookies });
+                requests.push({ url, cookies, type: 'server' });
             }
         });
 
@@ -68,7 +105,6 @@ test.describe('Example Test Suite', () => {
                     try {
                         throw new Error('Tracking cookie set');
                     } catch (e: any) {
-                        console.log('New cookie set:', cookieString);
                         const matches = String(e.stack).match(/\((http[^)]+)\)/)
                         if (matches) {
                             const url = matches[1];
@@ -86,11 +122,18 @@ test.describe('Example Test Suite', () => {
         // Navigate to the page
         await page.goto('https://tripleten.com/');
 
-        // Wait for 45 seconds
-        await page.waitForTimeout(45 * 1000);
+        await page.click('.header__login-button');
+        await page.waitForURL('networkidle');
 
-        const cookies = await page.evaluate(() => window.clientSideCookies);
-        console.log(cookies);
+        // Wait for 40 seconds
+        await page.waitForTimeout(40 * 1000);
+
+        const clientSideCookies = await page.evaluate(() => window.clientSideCookies);
+        clientSideCookies.forEach((cookie) => {
+            const {url, cookieString} = cookie;
+            const cookies = parseCookies(cookieString)
+            requests.push({ url: getUrl(url), cookies, type: 'client' });
+        });
 
         // Check if the heading text is correct
         // const heading = page.locator('h1');
