@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-
+import dotenv from 'dotenv';
 declare global {
     interface Window {
         clientSideCookies: {
@@ -18,6 +18,7 @@ interface CookieRequest {
     type: 'client' | 'server';
 }
 
+dotenv.config();
 const requests: CookieRequest[] = [];
 
 function parseCookies(cookieString: string) {
@@ -123,10 +124,16 @@ test.describe('Example Test Suite', () => {
         await page.goto('https://tripleten.com/');
 
         await page.click('.header__login-button');
-        await page.waitForURL('networkidle');
+        await page.waitForURL('id.tripleten.com');
+
+        await page.fill('#username', process.env.USERMAIL || '');
+        // await page.fill('input[name="password"]', process.env.PASSWORD!); // Password from .env file
+
+
+
 
         // Wait for 40 seconds
-        await page.waitForTimeout(40 * 1000);
+        // await page.waitForTimeout(40 * 1000);
 
         const clientSideCookies = await page.evaluate(() => window.clientSideCookies);
         clientSideCookies.forEach((cookie) => {
