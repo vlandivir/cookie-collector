@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, Page } from '@playwright/test';
 import dotenv from 'dotenv';
 declare global {
     interface Window {
@@ -35,9 +35,23 @@ function parseCookies(cookieString: string) {
     });
 }
 
-function getUrl(url: string) {
+const getUrl = (url: string) => {
     const parsedUrl = new URL(url);
     return [parsedUrl.host, parsedUrl.pathname.split(':').shift()].join('');
+}
+
+const addCookieCollector = (page: Page) => {
+    page.on('response', async response => {
+        const request = response.request();
+
+        const url = getUrl(request.url());
+        const setCookieHeader = (await response.allHeaders())['set-cookie'];
+
+        if (setCookieHeader) {
+            const cookies = parseCookies(setCookieHeader)
+            requests.push({ url, cookies, type: 'server' });
+        }
+    });
 }
 
 // Example test suite
@@ -71,22 +85,7 @@ test.describe('Example Test Suite', () => {
     // Example test case
     test('should navigate to the page and check title', async ({ page }) => {
         // Collect all requests and their responses
-        page.on('response', async response => {
-            const request = response.request();
-
-            const url = getUrl(request.url());
-            const setCookieHeader = (await response.allHeaders())['set-cookie'];
-
-            // Exclude requests to partytown worker
-            // if (url === 'https://tripleten.com/se-light/~partytown/debug/proxytown') {
-            //     return;
-            // }
-
-            if (setCookieHeader) {
-                const cookies = parseCookies(setCookieHeader)
-                requests.push({ url, cookies, type: 'server' });
-            }
-        });
+        addCookieCollector(page);
 
         await page.addInitScript(() => {
             // Save the original document.cookie property descriptor
@@ -121,19 +120,23 @@ test.describe('Example Test Suite', () => {
         });
 
         // Navigate to the page
-        await page.goto('https://tripleten.com/');
+        await page.goto('https://tripleten.com/sso/auth?retpath=%2Fprofile%2F%3Ffrom%3D%252Fsuccess%252F');
 
-        await page.click('.header__login-button');
-        await page.waitForURL('id.tripleten.com');
+        // const [loginPage] = await Promise.all([
+        //     page.context().waitForEvent('page'),
+        //     page.locator('[id="header"] .header__login-button').click()
+        // ]);
 
         await page.fill('#username', process.env.USERMAIL || '');
-        // await page.fill('input[name="password"]', process.env.PASSWORD!); // Password from .env file
+        await page.locator(".input_type_submit").click();
 
+        await page.fill('#password', process.env.PASSWORD || '');
+        await page.locator(".input_type_submit").click();
 
-
+        await page.goto('https://tripleten.com/');
 
         // Wait for 40 seconds
-        // await page.waitForTimeout(40 * 1000);
+        await page.waitForTimeout(40 * 1000);
 
         const clientSideCookies = await page.evaluate(() => window.clientSideCookies);
         clientSideCookies.forEach((cookie) => {
