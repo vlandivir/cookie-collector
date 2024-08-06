@@ -30,7 +30,7 @@ const parseCookies = (cookieString: string) => {
             let [key, val] = attr.split('=').map(part => part.trim());
             attribs[key.toLowerCase()] = val || 'true';
         });
-        return {name: [attribs['domain'], name].join(' ').trim(), cookie};
+        return {name, nameWithDomain: [attribs['domain'], name].join(' ').trim(), cookie};
     });
 }
 

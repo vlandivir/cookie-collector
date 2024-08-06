@@ -30,11 +30,13 @@ const main = async () => {
     await page.waitForTimeout(10 * 1000);
     await parseClientSideCookies(page);
 
+    const COOKIE_LENGTH = 40;
     const collectedCookies = getCollectedCookies();
     console.log(JSON.stringify(
         Object.keys(collectedCookies).map((k) => {
             const { type, urls } = collectedCookies[k];
-            return `${type}    ${k}    ${urls.join()}`
+            const padding = ' '.repeat(COOKIE_LENGTH - k.length);
+            return `${type}    ${k + padding}    ${urls.join()}`
         }).sort(), null, 2
     ));
 
