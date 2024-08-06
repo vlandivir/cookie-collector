@@ -1,10 +1,9 @@
 import { test } from '@playwright/test';
+
 import dotenv from 'dotenv';
-
-import { addCookieCollector, parseClientSideCookies, getCollectedCookies } from '../tools/cookies-collector';
-
 dotenv.config();
 
+import { addCookieCollector, parseClientSideCookies, getCollectedCookies } from '../tools/cookies-collector';
 
 // Example test suite
 test.describe('Example Test Suite', () => {
@@ -20,23 +19,22 @@ test.describe('Example Test Suite', () => {
 
     // Example test case
     test('should navigate to the page and check title', async ({ page }) => {
-        // Collect all requests and their responses
         await addCookieCollector(page);
 
-        // Navigate to the page
+        // Navigate to the login page
         await page.goto('https://tripleten.com/sso/auth?retpath=%2Fprofile%2F%3Ffrom%3D%252Fsuccess%252F');
-
         await page.fill('#username', process.env.USERMAIL || '');
         await page.locator(".input_type_submit").click();
-
         await page.fill('#password', process.env.PASSWORD || '');
         await page.locator(".input_type_submit").click();
 
-        await page.goto('https://tripleten.com/se-light/');
+        // Navigate to the main page
+        await page.goto('https://tripleten.com/');
 
         // Wait for 40 seconds
         await page.waitForTimeout(40 * 1000);
 
+        // Print collected cookies
         await parseClientSideCookies(page);
 
         // Check if the heading text is correct
