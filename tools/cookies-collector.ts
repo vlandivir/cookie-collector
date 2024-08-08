@@ -9,18 +9,20 @@ declare global {
     }
 }
 
+interface Cookie {
+    name: string;
+    nameWithDomain: string;
+    cookie: string;
+}
 interface CookieRequest {
     url: string;
-    cookies: {
-        name: string;
-        cookie: string;
-    }[];
+    cookies: Cookie[];
     type: 'client' | 'server';
 }
 
 const requests: CookieRequest[] = [];
 
-const parseCookies = (cookieString: string) => {
+const parseCookies = (cookieString: string): Cookie[] => {
     return cookieString.split('\n').map(cookie => {
         let [cookiePair, ...attributePairs] = cookie.split(';').map(part => part.trim());
         let [name] = cookiePair.split('=');
