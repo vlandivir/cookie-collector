@@ -3,6 +3,7 @@ screenshots
 test-results
 playwright-report
 temp
+.ipynb_checkpoints
 
 # Logs
 logs

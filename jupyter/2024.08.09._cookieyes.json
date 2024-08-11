@@ -1,0 +1,3476 @@
+[
+  {
+    "id": 4052478,
+    "name": {
+      "en": "Necessary cookies"
+    },
+    "description": {
+      "en": "<p><span>These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.</span></p>"
+    },
+    "slug": "necessary",
+    "type": 1,
+    "status": 1,
+    "active": 1,
+    "order": 1,
+    "website_id": 735756,
+    "settings": null,
+    "default_consent": {
+      "ccpa": "1",
+      "gdpr": "1"
+    },
+    "created_at": "2024-07-12T11:59:02.000000Z",
+    "updated_at": "2024-08-02T13:47:46.000000Z",
+    "cookies": [
+      {
+        "id": 11306085,
+        "cookie_id": "_conv_v",
+        "description": {
+          "en": "This cookie is set by the provider Convert. This cookie is the visitor-centric cookie that has a lifetime of max 6 months from the last update time. It is a string of star(*) separated pieces; each piece is a string that contains key and value strings glued together by colon (:)."
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-29T12:03:43.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306086,
+        "cookie_id": "_conv_s",
+        "description": {
+          "en": "<p><span>Tracks website statistics and conversion rates.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "20 minutes",
+        "duration": {
+          "en": "20 minutes"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-30T10:11:02.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306087,
+        "cookie_id": "auto_login_return_uri",
+        "description": {
+          "en": "<p><span>Website operation.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-29T13:48:39.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306088,
+        "cookie_id": "_cfuvid",
+        "description": {
+          "en": "<p><span>Identifies trusted web traffic to enhance security and reliability.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": ".hubspot.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-29T13:44:32.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306089,
+        "cookie_id": "tildauid",
+        "description": {
+          "en": "<p><span>Website operation.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "3 months",
+        "duration": {
+          "en": "3 months"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-30T09:42:33.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306090,
+        "cookie_id": "tildasid",
+        "description": {
+          "en": "<p><span>Website operation.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "1 hour",
+        "duration": {
+          "en": "1 hour"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-30T09:42:33.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306091,
+        "cookie_id": "referrer",
+        "description": {
+          "en": "<p><span>Used for website analytics.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-08-06T15:09:04.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306092,
+        "cookie_id": "visited",
+        "description": {
+          "en": "<p><span>Used for website analytics.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-30T10:11:02.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306093,
+        "cookie_id": "__cf_bm",
+        "description": {
+          "en": "This cookie, set by Cloudflare, is used to support Cloudflare Bot Management."
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "1 hour",
+        "duration": {
+          "en": "1 hour"
+        },
+        "domain": ".hubspot.com",
+        "website_id": 735756,
+        "script_slug": "cloudflare_service",
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-08-06T14:26:08.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306094,
+        "cookie_id": "__hssrc",
+        "description": {
+          "en": "This cookie is set by Hubspot whenever it changes the session cookie. The __hssrc cookie set to 1 indicates that the user has restarted the browser, and if the cookie does not exist, it is assumed to be a new session."
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "hubspot_script",
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-08-06T14:26:08.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306095,
+        "cookie_id": "__hssc",
+        "description": {
+          "en": "HubSpot sets this cookie to keep track of sessions and to determine if HubSpot should increment the session number and timestamps in the __hstc cookie."
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "1 hour",
+        "duration": {
+          "en": "1 hour"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "hubspot_script",
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-08-06T14:26:08.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306176,
+        "cookie_id": "TRIPLETEN_EXP_USER_ID",
+        "description": {
+          "en": "<p><span>Stores visitor ID number.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "1 month",
+        "duration": {
+          "en": "1 month"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:06.000000Z",
+        "updated_at": "2024-07-30T09:49:04.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306177,
+        "cookie_id": "AUTH_SESSION_ID",
+        "description": {
+          "en": "<p><span>This cookie is used by our self-hosted identity provider for authentication.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "id.tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:06.000000Z",
+        "updated_at": "2024-07-29T13:44:32.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306178,
+        "cookie_id": "AUTH_SESSION_ID_LEGACY",
+        "description": {
+          "en": "<p><span>This cookie is used by our self-hosted identity provider for authentication.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "id.tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-29T13:44:32.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306179,
+        "cookie_id": "KC_RESTART",
+        "description": {
+          "en": "<p><span>This cookie is used by our self-hosted identity provider for authentication.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "id.tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-30T10:11:02.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306180,
+        "cookie_id": "request_uri",
+        "description": {
+          "en": "<p><span>Used for website analytics.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-30T10:11:02.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306181,
+        "cookie_id": "OAuth_Token_Request_State",
+        "description": {
+          "en": "<p><span>This cookie is used by our self-hosted identity provider for authentication.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-30T09:25:36.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306183,
+        "cookie_id": "TILDAUTM",
+        "description": {
+          "en": "<p><span>Website operation.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "1 month",
+        "duration": {
+          "en": "1 month"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-30T09:49:04.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306184,
+        "cookie_id": "AWSALBTGCORS",
+        "description": {
+          "en": "<p><span>Amazon Web Services set this cookie for load balancing.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "7 days",
+        "duration": {
+          "en": "7 days"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-29T13:48:39.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306185,
+        "cookie_id": "tf_respondent_cc",
+        "description": {
+          "en": "Description is currently not available."
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": ".typeform.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-30T10:11:02.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306186,
+        "cookie_id": "debug",
+        "description": {
+          "en": "<p>This cookie is set by Typeform for usage statistics and is used in context with the website's pop-up questionnaires and messengering.</p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306187,
+        "cookie_id": "loglevel",
+        "description": {
+          "en": "<p><span>This cookie is set by Typeform for usage statistics and is used in context with the website's pop-up questionnaires and messengering.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306188,
+        "cookie_id": "AWSALBTG",
+        "description": {
+          "en": "<p><span>Amazon Web Services set this cookie for load balancing.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "7 days",
+        "duration": {
+          "en": "7 days"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-29T13:48:39.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306190,
+        "cookie_id": "tableau_locale",
+        "description": {
+          "en": "<p><span>The cookie is used for tableau integration for user experience optimization.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "public.tableau.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-30T09:42:33.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306191,
+        "cookie_id": "hid",
+        "description": {
+          "en": "<p><span>The cookie is used for tableau integration for user experience optimization.</span></p>"
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": ".prod-public-uswest-a.online.tableau.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-29T14:21:35.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306192,
+        "cookie_id": "AWSALBCORS",
+        "description": {
+          "en": "Amazon Web Services set this cookie for load balancing."
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "7 days",
+        "duration": {
+          "en": "7 days"
+        },
+        "domain": "docs.tripleten.com",
+        "website_id": 735756,
+        "script_slug": "aws",
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306218,
+        "cookie_id": "tableau_public_negotiated_locale",
+        "description": {
+          "en": "Tableau sets this cookie in context with the language settings on the website. Facilitates the translation into the preferred language of the visitor."
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "public.tableau.com",
+        "website_id": 735756,
+        "script_slug": "tableau",
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306219,
+        "cookie_id": "AWSALB",
+        "description": {
+          "en": "AWSALB is an application load balancer cookie set by Amazon Web Services to map the session to the target."
+        },
+        "type": 1,
+        "category_id": 4052478,
+        "default_duration": "7 days",
+        "duration": {
+          "en": "7 days"
+        },
+        "domain": "docs.tripleten.com",
+        "website_id": 735756,
+        "script_slug": "aws",
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11569302,
+        "cookie_id": "__hs_cookie_cat_pref",
+        "description": {
+          "en": "<p>Remembers user preferences for cookie categories.</p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T10:55:46.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11571033,
+        "cookie_id": "__secure-has_logged_in",
+        "description": {
+          "en": "<p><span>Fraud detection for Stripe payment gateway.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:49:54.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11571034,
+        "cookie_id": "__stripe_mid",
+        "description": {
+          "en": "<p><span>Ensures secure payment processing.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:49:54.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11571035,
+        "cookie_id": "__stripe_orig_props",
+        "description": {
+          "en": "<p><span>Fraud detection for Stripe payment gateway.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "10 months",
+        "duration": {
+          "en": "10 months"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:49:54.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11571036,
+        "cookie_id": "__stripe_sid",
+        "description": {
+          "en": "<p><span>Fraud detection for Stripe payment gateway.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:49:54.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11571349,
+        "cookie_id": "_conv_r",
+        "description": {
+          "en": "<p><span>Tracks website statistics and conversion rates.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "5 months 27 days",
+        "duration": {
+          "en": "5 months 27 days"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T12:03:43.000000Z",
+        "updated_at": "2024-08-08T15:53:13.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573244,
+        "cookie_id": "accessToken",
+        "description": {
+          "en": "<p><span>Stores the access token value.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "2 weeks",
+        "duration": {
+          "en": "2 weeks"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:21:41.000000Z",
+        "updated_at": "2024-07-29T13:21:41.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11574394,
+        "cookie_id": "country",
+        "description": {
+          "en": "<p><span>Country information for website operation.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T14:16:51.000000Z",
+        "updated_at": "2024-07-29T14:16:51.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11574395,
+        "cookie_id": "csrf.app",
+        "description": {
+          "en": "<p><span>Prevents Cross-Site Request Forgery (CSRF) attacks.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "hubspot.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T14:16:51.000000Z",
+        "updated_at": "2024-07-29T14:16:51.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11574396,
+        "cookie_id": "docs.prefs",
+        "description": {
+          "en": "<p><span>Fraud detection for Stripe payment gateway.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T14:16:51.000000Z",
+        "updated_at": "2024-07-29T14:16:51.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11585613,
+        "cookie_id": "interface_language",
+        "description": {
+          "en": "<p><span>Language preferences for website operation.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T08:41:35.000000Z",
+        "updated_at": "2024-07-30T08:41:35.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11585614,
+        "cookie_id": "lang",
+        "description": {
+          "en": "<p><span>Language preferences.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "4 months",
+        "duration": {
+          "en": "4 months"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T08:41:35.000000Z",
+        "updated_at": "2024-07-30T08:41:35.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11585615,
+        "cookie_id": "machine_identifier",
+        "description": {
+          "en": "<p><span>Fraud detection for Stripe payment gateway.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "10 months",
+        "duration": {
+          "en": "10 months"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T08:41:35.000000Z",
+        "updated_at": "2024-07-30T08:41:35.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11585616,
+        "cookie_id": "merchant",
+        "description": {
+          "en": "<p><span>Stripe merchant ID.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T08:41:35.000000Z",
+        "updated_at": "2024-07-30T08:41:35.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11586925,
+        "cookie_id": "private_machine_identifier",
+        "description": {
+          "en": "<p><span>Fraud detection for Stripe payment gateway.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "10 months",
+        "duration": {
+          "en": "10 months"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:25:36.000000Z",
+        "updated_at": "2024-08-06T14:17:55.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11586926,
+        "cookie_id": "recent-views",
+        "description": {
+          "en": "<p><span>Fraud detection for Stripe payment gateway.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:25:36.000000Z",
+        "updated_at": "2024-07-30T09:25:36.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11586927,
+        "cookie_id": "refreshToken",
+        "description": {
+          "en": "<p><span>Refreshes the access token when it expires.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "2 weeks",
+        "duration": {
+          "en": "2 weeks"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:25:36.000000Z",
+        "updated_at": "2024-07-30T09:25:36.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11587190,
+        "cookie_id": "stripe.csrf",
+        "description": {
+          "en": "<p><span>Prevents Cross-Site Request Forgery (CSRF) attacks.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:33:10.000000Z",
+        "updated_at": "2024-07-30T09:49:04.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11587191,
+        "cookie_id": "t_cookiesCategories",
+        "description": {
+          "en": "<p><span>Determines accepted cookie categories.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:33:10.000000Z",
+        "updated_at": "2024-07-30T09:33:10.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11587192,
+        "cookie_id": "t_cookiesConsentGiven",
+        "description": {
+          "en": "<p><span>Determines if cookie consent was given.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:33:10.000000Z",
+        "updated_at": "2024-07-30T09:33:10.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11587986,
+        "cookie_id": "user",
+        "description": {
+          "en": "<p><span>Fraud detection for Stripe payment gateway.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052478,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "stripe.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T10:11:02.000000Z",
+        "updated_at": "2024-07-30T10:11:02.000000Z",
+        "data_migrated_at": null
+      }
+    ],
+    "scripts": []
+  },
+  {
+    "id": 4052479,
+    "name": {
+      "en": "Functional cookies"
+    },
+    "description": {
+      "en": "<p><span>These cookies enable the website to provide enhanced functionality and personalization. If you do not allow these cookies then some or all of these services may not function properly.</span></p>"
+    },
+    "slug": "functional",
+    "type": 2,
+    "status": 1,
+    "active": 1,
+    "order": 2,
+    "website_id": 735756,
+    "settings": null,
+    "default_consent": {
+      "ccpa": "0",
+      "gdpr": "0"
+    },
+    "created_at": "2024-07-12T11:59:02.000000Z",
+    "updated_at": "2024-08-02T13:47:46.000000Z",
+    "cookies": [
+      {
+        "id": 11306209,
+        "cookie_id": "yt-remote-device-id",
+        "description": {
+          "en": "YouTube sets this cookie to store the user's video preferences using embedded YouTube videos."
+        },
+        "type": 1,
+        "category_id": 4052479,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306210,
+        "cookie_id": "ytidb::LAST_RESULT_ENTRY_KEY",
+        "description": {
+          "en": "The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search result entry that was clicked by the user. This information is used to improve the user experience by providing more relevant search results in the future."
+        },
+        "type": 1,
+        "category_id": 4052479,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306211,
+        "cookie_id": "yt-player-headers-readable",
+        "description": {
+          "en": "The yt-player-headers-readable cookie is used by YouTube to store user preferences related to video playback and interface, enhancing the user's viewing experience."
+        },
+        "type": 1,
+        "category_id": 4052479,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:06.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306212,
+        "cookie_id": "yt-remote-connected-devices",
+        "description": {
+          "en": "YouTube sets this cookie to store the user's video preferences using embedded YouTube videos."
+        },
+        "type": 1,
+        "category_id": 4052479,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:06.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306213,
+        "cookie_id": "yt-remote-session-app",
+        "description": {
+          "en": "The yt-remote-session-app cookie is used by YouTube to store user preferences and information about the interface of the embedded YouTube video player."
+        },
+        "type": 1,
+        "category_id": 4052479,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306214,
+        "cookie_id": "yt-remote-cast-installed",
+        "description": {
+          "en": "The yt-remote-cast-installed cookie is used to store the user's video player preferences using embedded YouTube video."
+        },
+        "type": 1,
+        "category_id": 4052479,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306215,
+        "cookie_id": "yt-remote-session-name",
+        "description": {
+          "en": "The yt-remote-session-name cookie is used by YouTube to store the user's video player preferences using embedded YouTube video."
+        },
+        "type": 1,
+        "category_id": 4052479,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306217,
+        "cookie_id": "yt-remote-fast-check-period",
+        "description": {
+          "en": "The yt-remote-fast-check-period cookie is used by YouTube to store the user's video player preferences for embedded YouTube videos."
+        },
+        "type": 1,
+        "category_id": 4052479,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11727613,
+        "cookie_id": "yt-player-bandwidth",
+        "description": {
+          "en": "The yt-player-bandwidth cookie is used to store the user's video player preferences and settings, particularly related to bandwidth and streaming quality on YouTube."
+        },
+        "type": 0,
+        "category_id": 4052479,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-08-06T15:09:06.000000Z",
+        "updated_at": "2024-08-06T15:09:06.000000Z",
+        "data_migrated_at": null
+      }
+    ],
+    "scripts": []
+  },
+  {
+    "id": 4052480,
+    "name": {
+      "en": "Analytics cookies"
+    },
+    "description": {
+      "en": "<p><span>These cookies are used for gathering analytics data on how you interact with our Services so we can improve their performance accordingly. They help us to know which pages are the most and least popular and see how visitors move around the site. If these cookies are disabled, we will not know when a user has visited our website or be able to monitor the website’s performance.</span></p>"
+    },
+    "slug": "analytics",
+    "type": 2,
+    "status": 1,
+    "active": 1,
+    "order": 3,
+    "website_id": 735756,
+    "settings": null,
+    "default_consent": {
+      "ccpa": "0",
+      "gdpr": "0"
+    },
+    "created_at": "2024-07-12T11:59:02.000000Z",
+    "updated_at": "2024-08-02T13:49:18.000000Z",
+    "cookies": [
+      {
+        "id": 11306099,
+        "cookie_id": "_gcl_au",
+        "description": {
+          "en": "Google Tag Manager sets the cookie to experiment advertisement efficiency of websites using their services."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "3 months",
+        "duration": {
+          "en": "3 months"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "google_tag_manager",
+        "url_pattern": "googletagmanager.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306100,
+        "cookie_id": "_ga",
+        "description": {
+          "en": "Google Analytics sets this cookie to calculate visitor, session and campaign data and track site usage for the site's analytics report. The cookie stores information anonymously and assigns a randomly generated number to recognise unique visitors."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 year 1 month 4 days",
+        "duration": {
+          "en": "1 year 1 month 4 days"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "google_analytics",
+        "url_pattern": "google-analytics.com|googletagmanager.com/gtag/js",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306101,
+        "cookie_id": "_ga_*",
+        "description": {
+          "en": "Google Analytics sets this cookie to store and count page views."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 year 1 month 4 days",
+        "duration": {
+          "en": "1 year 1 month 4 days"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "google_analytics",
+        "url_pattern": "google-analytics.com|googletagmanager.com/gtag/js",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306102,
+        "cookie_id": "_fbp",
+        "description": {
+          "en": "Facebook sets this cookie to display advertisements when either on Facebook or on a digital platform powered by Facebook advertising after visiting the website."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "3 months",
+        "duration": {
+          "en": "3 months"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "facebook",
+        "url_pattern": "facebook.net",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306103,
+        "cookie_id": "previousUrl",
+        "description": {
+          "en": "Tilda sets this cookie to creates a special ID for the session which, enables the website to collect visitor behaviour data for statistical purposes."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 hour",
+        "duration": {
+          "en": "1 hour"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": "tilda",
+        "url_pattern": "tildacdn.com/js/tilda-stat-1.0.min.js",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306104,
+        "cookie_id": "__hstc",
+        "description": {
+          "en": "Hubspot set this main cookie for tracking visitors. It contains the domain, initial timestamp (first visit), last timestamp (last visit), current timestamp (this visit), and session number (increments for each subsequent session)."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "hubspot_analytics",
+        "url_pattern": "js.hs-analytics.net",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306105,
+        "cookie_id": "hubspotutk",
+        "description": {
+          "en": "HubSpot sets this cookie to keep track of the visitors to the website. This cookie is passed to HubSpot on form submission and used when deduplicating contacts."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "hubspot",
+        "url_pattern": "hubspot.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306106,
+        "cookie_id": "_gid",
+        "description": {
+          "en": "Google Analytics sets this cookie to store information on how visitors use a website while also creating an analytics report of the website's performance. Some of the collected data includes the number of visitors, their source, and the pages they visit anonymously."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 day",
+        "duration": {
+          "en": "1 day"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "google_analytics",
+        "url_pattern": "google-analytics.com|googletagmanager.com/gtag/js",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306107,
+        "cookie_id": "_gat_UA-*",
+        "description": {
+          "en": "Google Analytics sets this cookie for user behaviour tracking.\n"
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 minute",
+        "duration": {
+          "en": "1 minute"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "google_analytics",
+        "url_pattern": "google-analytics.com|googletagmanager.com/gtag/js",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306108,
+        "cookie_id": "gscs",
+        "description": {
+          "en": "The gscs cookie registers data on visitors web site-behavior. This is used for used for personalization and interest targeting."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": "woopra_analytics",
+        "url_pattern": "woopra.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306182,
+        "cookie_id": "__gtm_campaign_url",
+        "description": {
+          "en": "<p><span>This cookie is used to collect campaign information from the referring URL, used to improve campaign relevance.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "googletagmanager.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-29T10:55:46.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306203,
+        "cookie_id": "CLID",
+        "description": {
+          "en": "Microsoft Clarity set this cookie to store information about how visitors interact with the website. The cookie helps to provide an analysis report. The data collection includes the number of visitors, where they visit the website, and the pages visited."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "www.clarity.ms",
+        "website_id": 735756,
+        "script_slug": "clarity",
+        "url_pattern": "clarity.ms",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306204,
+        "cookie_id": "_clck",
+        "description": {
+          "en": "Microsoft Clarity sets this cookie to retain the browser's Clarity User ID and settings exclusive to that website. This guarantees that actions taken during subsequent visits to the same website will be linked to the same user ID."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "clarity",
+        "url_pattern": "clarity.ms",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306205,
+        "cookie_id": "_clsk",
+        "description": {
+          "en": "Microsoft Clarity sets this cookie to store and consolidate a user's pageviews into a single session recording."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 day",
+        "duration": {
+          "en": "1 day"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "clarity",
+        "url_pattern": "clarity.ms",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306206,
+        "cookie_id": "MR",
+        "description": {
+          "en": "This cookie, set by Bing, is used to collect user information for analytics purposes."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "7 days",
+        "duration": {
+          "en": "7 days"
+        },
+        "domain": ".c.bing.com",
+        "website_id": 735756,
+        "script_slug": "bing",
+        "url_pattern": "bing.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306207,
+        "cookie_id": "SM",
+        "description": {
+          "en": "Microsoft Clarity cookie set this cookie for synchronizing the MUID across Microsoft domains."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": ".c.clarity.ms",
+        "website_id": 735756,
+        "script_slug": "clarity",
+        "url_pattern": "clarity.ms",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306208,
+        "cookie_id": "attribution_user_id",
+        "description": {
+          "en": "This cookie is set by Typeform for usage statistics and is used in context with the website's pop-up questionnaires and messengering."
+        },
+        "type": 1,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": ".typeform.com",
+        "website_id": 735756,
+        "script_slug": "typeform",
+        "url_pattern": "typeform.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573245,
+        "cookie_id": "1P_JAR",
+        "description": {
+          "en": "<p><span>Gathers website statistics and tracks conversion rates.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 month",
+        "duration": {
+          "en": "1 month"
+        },
+        "domain": ".google.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.com",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:21:41.000000Z",
+        "updated_at": "2024-07-29T13:53:13.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573246,
+        "cookie_id": "AEC",
+        "description": {
+          "en": "<p><span>Ensures requests are user-made, preventing malicious site actions.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": ".google.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.com",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:21:41.000000Z",
+        "updated_at": "2024-07-29T13:53:13.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573463,
+        "cookie_id": "ajs_anonymous_id",
+        "description": {
+          "en": "<p><span>Counts site visits.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tomi.ai",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "tomi.ai",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:30:34.000000Z",
+        "updated_at": "2024-07-29T13:30:34.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573464,
+        "cookie_id": "analytics_session_id",
+        "description": {
+          "en": "<p><span>Tracks last visit and session start times.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tomi.ai",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "tomi.ai",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:30:34.000000Z",
+        "updated_at": "2024-07-29T13:30:34.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573465,
+        "cookie_id": "analytics_session_id.last_access",
+        "description": {
+          "en": "<p><span>Tracks last visit and session start times.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tomi.ai",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "tomi.ai",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:30:34.000000Z",
+        "updated_at": "2024-07-29T13:30:34.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573466,
+        "cookie_id": "APISID",
+        "description": {
+          "en": "<p><span>Used by Google reCAPTCHA for tracking.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "2 years",
+        "duration": {
+          "en": "2 years"
+        },
+        "domain": ".google.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.com",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:30:34.000000Z",
+        "updated_at": "2024-07-29T13:53:13.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573730,
+        "cookie_id": "ar_debug",
+        "description": {
+          "en": "<p><span>Used by DoubleClick to debug ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": ".doubleclick.net",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "doubleclick.net",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:44:32.000000Z",
+        "updated_at": "2024-07-29T13:53:13.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573886,
+        "cookie_id": "cb_anonymous_id",
+        "description": {
+          "en": "<p><span>Tracks marketing campaign performance.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tomi.ai",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "tomi.ai",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:53:13.000000Z",
+        "updated_at": "2024-07-29T13:53:13.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573887,
+        "cookie_id": "cb_group_id",
+        "description": {
+          "en": "<p><span>Tracks marketing campaign performance.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tomi.ai",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "tomi.ai",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:53:13.000000Z",
+        "updated_at": "2024-07-29T13:53:13.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573888,
+        "cookie_id": "cb_user_id",
+        "description": {
+          "en": "<p><span>Tracks marketing campaign performance.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "tomi.ai",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "tomi.ai",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:53:13.000000Z",
+        "updated_at": "2024-07-29T13:53:13.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11574528,
+        "cookie_id": "DV",
+        "description": {
+          "en": "<p><span>Collects information about site usage.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 hour",
+        "duration": {
+          "en": "1 hour"
+        },
+        "domain": "google.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.com",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T14:19:09.000000Z",
+        "updated_at": "2024-07-29T14:19:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11574559,
+        "cookie_id": "ga*",
+        "description": {
+          "en": "<p><span>Persists session state.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "1 year 1 month 4 days",
+        "duration": {
+          "en": "1 year 1 month 4 days"
+        },
+        "domain": "google.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.com",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T14:20:17.000000Z",
+        "updated_at": "2024-07-29T14:20:17.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11585617,
+        "cookie_id": "ir_pi",
+        "description": {
+          "en": "<p><span>Helps improve website and record customer information.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "13 months",
+        "duration": {
+          "en": "13 months"
+        },
+        "domain": "hubspot.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "hubspot.com",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T08:41:35.000000Z",
+        "updated_at": "2024-08-06T14:26:08.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11586928,
+        "cookie_id": "NID",
+        "description": {
+          "en": "<p><span>Used by Google reCAPTCHA for tracking.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "2 years",
+        "duration": {
+          "en": "2 years"
+        },
+        "domain": "google.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.com",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:25:36.000000Z",
+        "updated_at": "2024-07-30T09:25:36.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11586929,
+        "cookie_id": "receive-cookie-deprecation",
+        "description": {
+          "en": "<p><span>Used by the Google Marketing Platform to get insights.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": "doubleclick.net",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "doubleclick.net",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:25:36.000000Z",
+        "updated_at": "2024-07-30T09:25:36.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11586930,
+        "cookie_id": "SAPISID",
+        "description": {
+          "en": "<p><span>Collects visitor info for YouTube videos and Google Maps.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "Persistent",
+        "duration": {
+          "en": "Persistent"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:25:36.000000Z",
+        "updated_at": "2024-07-30T09:25:36.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11587021,
+        "cookie_id": "SID",
+        "description": {
+          "en": "<p><span>Confirms visitor authenticity, prevents fraudulent use.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "2 years",
+        "duration": {
+          "en": "2 years"
+        },
+        "domain": ".google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": ".google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:27:09.000000Z",
+        "updated_at": "2024-07-30T09:27:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11587022,
+        "cookie_id": "SIDCC",
+        "description": {
+          "en": "<p><span>Confirms visitor authenticity, prevents fraudulent use.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "2 years",
+        "duration": {
+          "en": "2 years"
+        },
+        "domain": ".google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": ".google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:27:09.000000Z",
+        "updated_at": "2024-07-30T09:27:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11587193,
+        "cookie_id": "ADDED",
+        "description": {
+          "en": "<p><span>Collects visitor info for YouTube videos and Google Maps.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052480,
+        "default_duration": "persistent",
+        "duration": {
+          "en": "persistent"
+        },
+        "domain": ".google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": ".google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T09:33:10.000000Z",
+        "updated_at": "2024-07-30T09:49:04.000000Z",
+        "data_migrated_at": null
+      }
+    ],
+    "scripts": []
+  },
+  {
+    "id": 4052481,
+    "name": {
+      "en": "Performance"
+    },
+    "description": {
+      "en": "<p>Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.</p>"
+    },
+    "slug": "performance",
+    "type": 2,
+    "status": 1,
+    "active": 0,
+    "order": 4,
+    "website_id": 735756,
+    "settings": null,
+    "default_consent": {
+      "ccpa": "0",
+      "gdpr": "0"
+    },
+    "created_at": "2024-07-12T11:59:02.000000Z",
+    "updated_at": "2024-08-02T13:49:18.000000Z",
+    "cookies": [],
+    "scripts": []
+  },
+  {
+    "id": 4052482,
+    "name": {
+      "en": "Marketing cookies"
+    },
+    "description": {
+      "en": "<p><span>These cookies are necessary to track visitors across the website and display ads that are relevant.</span></p>"
+    },
+    "slug": "advertisement",
+    "type": 2,
+    "status": 1,
+    "active": 1,
+    "order": 5,
+    "website_id": 735756,
+    "settings": null,
+    "default_consent": {
+      "ccpa": "0",
+      "gdpr": "0"
+    },
+    "created_at": "2024-07-12T11:59:02.000000Z",
+    "updated_at": "2024-08-02T13:49:18.000000Z",
+    "cookies": [
+      {
+        "id": 11306096,
+        "cookie_id": "_ttp",
+        "description": {
+          "en": "TikTok set this cookie to track and improve the performance of advertising campaigns, as well as to personalise the user experience."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "1 year 24 days",
+        "duration": {
+          "en": "1 year 24 days"
+        },
+        "domain": ".tiktok.com",
+        "website_id": 735756,
+        "script_slug": "tik_tok",
+        "url_pattern": "tiktok.com|analytics.tiktok.com/i18n/pixel/config.js",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306097,
+        "cookie_id": "MUID",
+        "description": {
+          "en": "Bing sets this cookie to recognise unique web browsers visiting Microsoft sites. This cookie is used for advertising, site analytics, and other operations."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "1 year 24 days",
+        "duration": {
+          "en": "1 year 24 days"
+        },
+        "domain": ".bing.com",
+        "website_id": 735756,
+        "script_slug": "bing",
+        "url_pattern": "bing.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306098,
+        "cookie_id": "_tt_enable_cookie",
+        "description": {
+          "en": "Tiktok set this cookie to collect data about behaviour and activities on the website and to measure the effectiveness of the advertising."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "1 year 24 days",
+        "duration": {
+          "en": "1 year 24 days"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "tik_tok",
+        "url_pattern": "tiktok.com|analytics.tiktok.com/i18n/pixel/config.js",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-12T11:59:56.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306109,
+        "cookie_id": "_uetsid",
+        "description": {
+          "en": "Bing Ads sets this cookie to engage with a user that has previously visited the website."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "1 day",
+        "duration": {
+          "en": "1 day"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "bing",
+        "url_pattern": "bing.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-26T12:10:53.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306110,
+        "cookie_id": "_uetvid",
+        "description": {
+          "en": "Bing Ads sets this cookie to engage with a user that has previously visited the website."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "1 year 24 days",
+        "duration": {
+          "en": "1 year 24 days"
+        },
+        "domain": ".tripleten.com",
+        "website_id": 735756,
+        "script_slug": "bing",
+        "url_pattern": "bing.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T11:59:56.000000Z",
+        "updated_at": "2024-07-26T12:10:54.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306189,
+        "cookie_id": "MSPTC",
+        "description": {
+          "en": "<p><span>Registers visitor data to optimize ad relevance.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "1 year 24 days",
+        "duration": {
+          "en": "1 year 24 days"
+        },
+        "domain": ".bing.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "bing.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-30T09:25:36.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306193,
+        "cookie_id": "test_cookie",
+        "description": {
+          "en": "doubleclick.net sets this cookie to determine if the user's browser supports cookies."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "15 minutes",
+        "duration": {
+          "en": "15 minutes"
+        },
+        "domain": ".doubleclick.net",
+        "website_id": 735756,
+        "script_slug": "doubleclick",
+        "url_pattern": "doubleclick.net",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306194,
+        "cookie_id": "ANONCHK",
+        "description": {
+          "en": "The ANONCHK cookie, set by Bing, is used to store a user's session ID and verify ads' clicks on the Bing search engine. The cookie helps in reporting and personalization as well."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "10 minutes",
+        "duration": {
+          "en": "10 minutes"
+        },
+        "domain": ".c.clarity.ms",
+        "website_id": 735756,
+        "script_slug": "bing",
+        "url_pattern": "bing.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306195,
+        "cookie_id": "rl_user_id",
+        "description": {
+          "en": "RudderStack set this cookie to store a unique user ID for the Marketing/Tracking purpose."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": "rudder_stack",
+        "url_pattern": "rudderlabs.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306196,
+        "cookie_id": "rl_group_id",
+        "description": {
+          "en": "RudderStack sets this cookie to collect user activity on the web."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": "rudder_stack",
+        "url_pattern": "rudderlabs.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306197,
+        "cookie_id": "rl_group_trait",
+        "description": {
+          "en": "Rudderstack sets this cookie, which is used to store performed actions on the website.\t"
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": "rudder_stack",
+        "url_pattern": "rudderlabs.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306198,
+        "cookie_id": "rl_trait",
+        "description": {
+          "en": "Rudderstack sets this cookie, which is used to store performed actions on the website.        "
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": "rudder_stack",
+        "url_pattern": "rudderlabs.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306199,
+        "cookie_id": "rl_anonymous_id",
+        "description": {
+          "en": "RudderStack set this cookie to store statistical data of users' behaviour on the website, which can be used for internal analytics by the website operator."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "y-data.typeform.com",
+        "website_id": 735756,
+        "script_slug": "rudder_stack",
+        "url_pattern": "rudderlabs.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306200,
+        "cookie_id": "YSC",
+        "description": {
+          "en": "Youtube sets this cookie to track the views of embedded videos on Youtube pages."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": ".youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306201,
+        "cookie_id": "VISITOR_INFO1_LIVE",
+        "description": {
+          "en": "YouTube sets this cookie to measure bandwidth, determining whether the user gets the new or old player interface."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": ".youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306202,
+        "cookie_id": "VISITOR_PRIVACY_METADATA",
+        "description": {
+          "en": "YouTube sets this cookie to store the user's cookie consent state for the current domain.\t"
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "6 months",
+        "duration": {
+          "en": "6 months"
+        },
+        "domain": ".youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-12T12:03:07.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11306220,
+        "cookie_id": "SRM_B",
+        "description": {
+          "en": "Used by Microsoft Advertising as a unique ID for visitors."
+        },
+        "type": 1,
+        "category_id": 4052482,
+        "default_duration": "1 year 24 days",
+        "duration": {
+          "en": "1 year 24 days"
+        },
+        "domain": ".c.bing.com",
+        "website_id": 735756,
+        "script_slug": "bing",
+        "url_pattern": "bing.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-12T12:03:07.000000Z",
+        "updated_at": "2024-07-26T12:10:54.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11570758,
+        "cookie_id": "__Secure-1PAPISID",
+        "description": {
+          "en": "<p><span>Builds visitor interest profiles for retargeting ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "2 years",
+        "duration": {
+          "en": "2 years"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:36:09.000000Z",
+        "updated_at": "2024-07-29T11:36:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11570759,
+        "cookie_id": "__Secure-1PSIDNO",
+        "description": {
+          "en": "<p><span>Builds visitor interest profiles for retargeting ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "2 years",
+        "duration": {
+          "en": "2 years"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:36:09.000000Z",
+        "updated_at": "2024-07-29T11:36:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11570760,
+        "cookie_id": "__Secure-1PSIDCC",
+        "description": {
+          "en": "<p><span>Builds visitor interest profiles for retargeting ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:36:09.000000Z",
+        "updated_at": "2024-07-29T11:36:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11570761,
+        "cookie_id": "__Secure-1PSIDTS",
+        "description": {
+          "en": "<p><span>Builds visitor interest profiles for retargeting ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:36:09.000000Z",
+        "updated_at": "2024-07-29T11:36:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11570762,
+        "cookie_id": "__Secure-3PAPISID",
+        "description": {
+          "en": "<p><span>Builds visitor interest profiles for retargeting ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "2 years",
+        "duration": {
+          "en": "2 years"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:36:09.000000Z",
+        "updated_at": "2024-07-29T11:36:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11570763,
+        "cookie_id": "__Secure-3PSID",
+        "description": {
+          "en": "<p><span>Builds visitor interest profiles for retargeting ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "2 years",
+        "duration": {
+          "en": "2 years"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:36:09.000000Z",
+        "updated_at": "2024-07-29T11:36:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11570764,
+        "cookie_id": "__Secure-3PSIDCC",
+        "description": {
+          "en": "<p><span>Builds visitor interest profiles for retargeting ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:36:09.000000Z",
+        "updated_at": "2024-07-29T11:36:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11570765,
+        "cookie_id": "__Secure-3PSIDTS",
+        "description": {
+          "en": "<p><span>Builds visitor interest profiles for retargeting ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "1 year",
+        "duration": {
+          "en": "1 year"
+        },
+        "domain": "google.*",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "google.*",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T11:36:09.000000Z",
+        "updated_at": "2024-07-29T11:36:09.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11573247,
+        "cookie_id": "_rdt_uuid",
+        "description": {
+          "en": "<p><span>Used for remarketing.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "3 months",
+        "duration": {
+          "en": "3 months"
+        },
+        "domain": "reddit.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "reddit.com",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T13:21:41.000000Z",
+        "updated_at": "2024-07-29T13:21:41.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11574406,
+        "cookie_id": "DSID",
+        "description": {
+          "en": "<p><span>Tracks user actions post-ad interaction to measure ad efficacy and present targeted ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "2 weeks",
+        "duration": {
+          "en": "2 weeks"
+        },
+        "domain": "doubleclick.net",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "doubleclick.net",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-29T14:17:27.000000Z",
+        "updated_at": "2024-07-29T14:17:27.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11585618,
+        "cookie_id": "IDE",
+        "description": {
+          "en": "<p><span>Tracks user actions post-ad interaction to measure ad efficacy and present targeted ads.</span></p>"
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "1 year 24 days",
+        "duration": {
+          "en": "1 year 24 days"
+        },
+        "domain": ".doubleclick.net",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": "doubleclick.net",
+        "created_from_scan": 0,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-07-30T08:41:35.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11727611,
+        "cookie_id": "yt.innertube::requests",
+        "description": {
+          "en": "YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen."
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-08-06T15:09:05.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11727612,
+        "cookie_id": "yt.innertube::nextId",
+        "description": {
+          "en": "YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen."
+        },
+        "type": 0,
+        "category_id": 4052482,
+        "default_duration": "Never Expires",
+        "duration": {
+          "en": "Never Expires"
+        },
+        "domain": "youtube.com",
+        "website_id": 735756,
+        "script_slug": "youtube",
+        "url_pattern": "youtube.com",
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-08-06T15:09:05.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      }
+    ],
+    "scripts": []
+  },
+  {
+    "id": 4052489,
+    "name": {
+      "en": "Uncategorized",
+      "de": "Nicht kategorisiert",
+      "fr": "Non classé",
+      "it": "Non categorizzato",
+      "es": "Sin categorizar",
+      "nl": "Niet-gecategoriseerd",
+      "bg": "Некатегоризиран",
+      "da": "Ukategoriserede",
+      "ru": "Без категории",
+      "ar": "غير مصنف",
+      "pl": "Bez kategorii",
+      "pt": "Não categorizados",
+      "ca": "Sense categoria",
+      "hu": "Nincs kategorizálva",
+      "sv": "Okategoriserad",
+      "hr": "Nekategorizirane",
+      "zh": "未分类",
+      "uk": "некатегоризовані",
+      "sk": "Nekategorizované",
+      "tr": "Kategorize edilmemiş",
+      "lt": "Kategorijai nepriskiriami",
+      "cs": "Nezařazené",
+      "fi": "Luokittelematon",
+      "no": "Ukategorisert",
+      "pt-br": "Não categorizados",
+      "sl": "Nekategorizirane",
+      "ro": "Necategorizat",
+      "th": "ไม่มีหมวดหมู่",
+      "et": "Liigitamata",
+      "lv": "Neklasificētie",
+      "el": "Χωρίς κατηγοριοποίηση",
+      "ab": "Uncategorized",
+      "aa": "Uncategorized",
+      "af": "Uncategorized",
+      "ak": "Uncategorized",
+      "sq": "Uncategorized",
+      "am": "Uncategorized",
+      "hy": "Uncategorized",
+      "as": "Uncategorized",
+      "av": "Uncategorized",
+      "ae": "Uncategorized",
+      "ay": "Uncategorized",
+      "az": "Uncategorized",
+      "bm": "Uncategorized",
+      "ba": "Uncategorized",
+      "eu": "Kategoriarik gabeak",
+      "be": "Uncategorized",
+      "bn": "Uncategorized",
+      "dz": "Uncategorized",
+      "bh": "Uncategorized",
+      "bi": "Uncategorized",
+      "bs": "Nekategorisano",
+      "br": "Uncategorized",
+      "my": "Uncategorized",
+      "km": "Uncategorized",
+      "ch": "Uncategorized",
+      "ce": "Uncategorized",
+      "ny": "Uncategorized",
+      "zh-hans": "Uncategorized",
+      "zh-hant": "Uncategorized",
+      "cv": "Uncategorized",
+      "kw": "Uncategorized",
+      "co": "Uncategorized",
+      "cr": "Uncategorized",
+      "eo": "Uncategorized",
+      "ee": "Uncategorized",
+      "fo": "Uncategorized",
+      "fj": "Uncategorized",
+      "fy": "Uncategorized",
+      "ff": "Uncategorized",
+      "gl": "Outras",
+      "ka": "Uncategorized",
+      "kl": "Uncategorized",
+      "gn": "Uncategorized",
+      "gu": "Uncategorized",
+      "ha": "Uncategorized",
+      "he": "Uncategorized",
+      "hz": "Uncategorized",
+      "hi": "Uncategorized",
+      "ho": "Uncategorized",
+      "is": "Uncategorized",
+      "ig": "Uncategorized",
+      "id": "Uncategorized",
+      "ia": "Uncategorized",
+      "ie": "Uncategorized",
+      "iu": "Uncategorized",
+      "ik": "Uncategorized",
+      "ga": "Uncategorized",
+      "ja": "未分類のクッキー",
+      "jv": "Uncategorized",
+      "kn": "Uncategorized",
+      "kr": "Uncategorized",
+      "ks": "Uncategorized",
+      "kk": "Uncategorized",
+      "ki": "Uncategorized",
+      "rw": "Uncategorized",
+      "ky": "Uncategorized",
+      "rn": "Uncategorized",
+      "kv": "Uncategorized",
+      "kg": "Uncategorized",
+      "ko": "기타",
+      "ku": "Uncategorized",
+      "kj": "Uncategorized",
+      "lo": "Uncategorized",
+      "ln": "Uncategorized",
+      "lg": "Uncategorized",
+      "lb": "Uncategorized",
+      "mk": "Uncategorized",
+      "mg": "Uncategorized",
+      "ms": "Uncategorized",
+      "ml": "Uncategorized",
+      "dv": "Uncategorized",
+      "mt": "Mhux ikklassifikati",
+      "gv": "Uncategorized",
+      "mi": "Uncategorized",
+      "mr": "Uncategorized",
+      "mh": "Uncategorized",
+      "mo": "Uncategorized",
+      "mn": "Uncategorized",
+      "na": "Uncategorized",
+      "nv": "Uncategorized",
+      "ng": "Uncategorized",
+      "ne": "Uncategorized",
+      "nd": "Uncategorized",
+      "se": "Uncategorized",
+      "nn": "Uncategorized",
+      "oc": "Uncategorized",
+      "cu": "Uncategorized",
+      "or": "Uncategorized",
+      "om": "Uncategorized",
+      "os": "Uncategorized",
+      "pi": "Uncategorized",
+      "ps": "Uncategorized",
+      "fa": "Uncategorized",
+      "pa": "Uncategorized",
+      "qu": "Uncategorized",
+      "rm": "Uncategorized",
+      "sm": "Uncategorized",
+      "sg": "Uncategorized",
+      "sa": "Uncategorized",
+      "sc": "Uncategorized",
+      "gd": "Uncategorized",
+      "sr": "Некатегоризовани",
+      "sh": "Uncategorized",
+      "st": "Uncategorized",
+      "tn": "Uncategorized",
+      "sn": "Uncategorized",
+      "sd": "Uncategorized",
+      "si": "Uncategorized",
+      "ss": "Uncategorized",
+      "sla": "Uncategorized",
+      "so": "Uncategorized",
+      "nr": "Uncategorized",
+      "su": "Uncategorized",
+      "sw": "Uncategorized",
+      "tl": "Hindi nakategorya",
+      "ty": "Uncategorized",
+      "tg": "Uncategorized",
+      "ta": "Uncategorized",
+      "tt": "Uncategorized",
+      "te": "Uncategorized",
+      "bo": "Uncategorized",
+      "ti": "Uncategorized",
+      "to": "Uncategorized",
+      "ts": "Uncategorized",
+      "tk": "Uncategorized",
+      "tw": "Uncategorized",
+      "ug": "Uncategorized",
+      "ur": "Uncategorized",
+      "uz": "Uncategorized",
+      "ve": "Uncategorized",
+      "vi": "Uncategorized",
+      "cy": "Heb eu categoreiddio",
+      "wo": "Uncategorized",
+      "xh": "Uncategorized",
+      "yi": "Uncategorized",
+      "yo": "Uncategorized",
+      "za": "Uncategorized",
+      "zu": "Uncategorized",
+      "sr-latn": "Nekategorizovani"
+    },
+    "description": {
+      "en": "<p>Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.</p>",
+      "de": "<p>Andere nicht kategorisierte Cookies sind solche, die analysiert werden und noch nicht in eine Kategorie eingestuft wurden.</p>",
+      "fr": "<p>Les autres cookies non classés sont ceux qui sont en cours d'analyse et qui n'ont pas encore été classés dans une catégorie.</p>",
+      "it": "<p>Altri cookie non categorizzati sono quelli che vengono analizzati e non sono stati ancora classificati in una categoria.</p>",
+      "es": "<p>Otras cookies no categorizadas son las que se están analizando y aún no se han clasificado en una categoría.</p>",
+      "nl": "<p>Andere niet-gecategoriseerde cookies zijn cookies die worden geanalyseerd en die nog niet in een categorie zijn ingedeeld.</p>",
+      "bg": "<p>Други некатегоризирани бисквитки са тези, които се анализират и все още не са класифицирани в категория.</p>",
+      "da": "Andre ukategoriserede cookies er dem, der analyseres og endnu ikke er klassificeret i en kategori.",
+      "ru": "<p>Другие файлы cookie без категорий - это те, которые анализируются и еще не были отнесены к категории.</p>",
+      "ar": "<p>ملفات تعريف الارتباط الأخرى غير المصنفة هي تلك التي يتم تحليلها ولم يتم تصنيفها في فئة حتى الآن.</p>",
+      "pl": "<p>Inne pliki cookie bez kategorii to te, które są analizowane i nie zostały jeszcze sklasyfikowane w żadnej kategorii.</p>",
+      "pt": "<p>Outros cookies não categorizados são aqueles que estão sendo analisados e ainda não foram classificados em uma categoria.</p>",
+      "ca": "<p>Altres cookies sense categoria són aquelles que s’estan analitzant i que encara no s’han classificat en cap categoria.</p>",
+      "hu": "<p>Egyéb kategorizálatlan sütik azok, amelyeket elemeznek, és amelyeket még nem soroltak be kategóriába.</p>",
+      "sv": "<p>Andra okategoriserade kakor är de som analyseras och som ännu inte har klassificerats i en kategori.</p>",
+      "hr": "<p>Ostali nekategorizirani kolačići su oni koji se analiziraju i još nisu klasificirani u kategoriju.</p>",
+      "zh": "<p>其他未分类的饼干是那些正在分析但尚未分类的饼干</p>",
+      "uk": "<p>Інші некатегоризовані файли cookie - це ті, які аналізуються і досі не класифіковані в категорію.</p>",
+      "sk": "<p>Ostatné nekategorizované súbory cookie sú tie, ktoré sa analyzujú a zatiaľ neboli zatriedené do kategórie.</p>",
+      "tr": "<p>Diğer kategorize edilmemiş çerezler, analiz edilmekte olan ve henüz bir kategoriye ayrılmamış olan çerezlerdir.</p>",
+      "lt": "<p>Kiti kategorijai nepriskiriami slapukai yra tie, kurie yra analizuojami ir dar nėra klasifikuojami į kategoriją.</p>",
+      "cs": "<p>Jiné nezařazené soubory cookie jsou ty, které jsou analyzovány a dosud nebyly zařazeny do žádné kategorie.</p>",
+      "fi": "<p>Muut luokittelemattomat evästeet ovat analysoitavia evästeitä, joita ei ole vielä luokiteltu luokkaan.</p>",
+      "no": "<p>Andre ukategoriserte informasjonskapsler er de som blir analysert og som foreløpig ikke er klassifisert i en kategori.</p>",
+      "pt-br": "<p>Outros cookies não categorizados são aqueles que estão a ser analisados e ainda não foram classificados numa categoria.</p>",
+      "sl": "<p>Drugi nekategorizirani piškotki so tisti, ki se analizirajo in še niso uvrščeni v kategorijo.</p>",
+      "ro": "<p>Alte cookie-uri necategorizate sunt cele care sunt analizate și nu au fost încă clasificate într-o categorie încă.</p>",
+      "th": "<p>คุกกี้ที่ไม่ได้จัดประเภทอื่น ๆ คือคุกกี้ที่เรากำลังวิเคราะห์อยู่จึงยังไม่ได้รับการจัดประเภทเป็นหมวดหมู่</p>",
+      "et": "<p>Muud liigitamata küpsised on need, mida analüüsitakse ja mida ei ole veel kategooriasse liigitatud.</p>",
+      "lv": "<p>Citi neklasificētie sīkfaili ir sīkfaili, kas tiek analizēti un vēl nav klasificēti kategorijā.</p>",
+      "el": "<p>Άλλα μη κατηγοριοποιημένα cookies είναι αυτά που αναλύονται και δεν έχουν ακόμη ταξινομηθεί σε κατηγορία.</p>",
+      "ab": "<p>  </p>",
+      "aa": "<p>  </p>",
+      "af": "<p>  </p>",
+      "ak": "<p>  </p>",
+      "sq": "<p>  </p>",
+      "am": "<p>  </p>",
+      "hy": "<p>  </p>",
+      "as": "<p>  </p>",
+      "av": "<p>  </p>",
+      "ae": "<p>  </p>",
+      "ay": "<p>  </p>",
+      "az": "<p>  </p>",
+      "bm": "<p>  </p>",
+      "ba": "<p>  </p>",
+      "eu": "Kategorizatu gabeko beste cookie batzuk aztertzen ari direnak eta oraindik kategoria batean sailkatu ez direnak dira.",
+      "be": "<p>  </p>",
+      "bn": "<p>  </p>",
+      "dz": "<p>  </p>",
+      "bh": "<p>  </p>",
+      "bi": "<p>  </p>",
+      "bs": "Ostali nekategorisani kolačići su oni koji se analiziraju i još nisu klasifikovani u kategoriju.",
+      "br": "<p>  </p>",
+      "my": "<p>  </p>",
+      "km": "<p>  </p>",
+      "ch": "<p>  </p>",
+      "ce": "<p>  </p>",
+      "ny": "<p>  </p>",
+      "zh-hans": "<p>  </p>",
+      "zh-hant": "<p>  </p>",
+      "cv": "<p>  </p>",
+      "kw": "<p>  </p>",
+      "co": "<p>  </p>",
+      "cr": "<p>  </p>",
+      "eo": "<p>  </p>",
+      "ee": "<p>  </p>",
+      "fo": "<p>  </p>",
+      "fj": "<p>  </p>",
+      "fy": "<p>  </p>",
+      "ff": "<p>  </p>",
+      "gl": "Outras cookies son aquelas que están sendo analizadas e que aínda non se incluiron nunha categoría.",
+      "ka": "<p>  </p>",
+      "kl": "<p>  </p>",
+      "gn": "<p>  </p>",
+      "gu": "<p>  </p>",
+      "ha": "<p>  </p>",
+      "he": "<p>  </p>",
+      "hz": "<p>  </p>",
+      "hi": "<p>  </p>",
+      "ho": "<p>  </p>",
+      "is": "<p>  </p>",
+      "ig": "<p>  </p>",
+      "id": "<p>  </p>",
+      "ia": "<p>  </p>",
+      "ie": "<p>  </p>",
+      "iu": "<p>  </p>",
+      "ik": "<p>  </p>",
+      "ga": "<p>  </p>",
+      "ja": "<p>その他の未分類のクッキーは、分析中であり、まだカテゴリーに分類されていないものです。</p>",
+      "jv": "<p>  </p>",
+      "kn": "<p>  </p>",
+      "kr": "<p>  </p>",
+      "ks": "<p>  </p>",
+      "kk": "<p>  </p>",
+      "ki": "<p>  </p>",
+      "rw": "<p>  </p>",
+      "ky": "<p>  </p>",
+      "rn": "<p>  </p>",
+      "kv": "<p>  </p>",
+      "kg": "<p>  </p>",
+      "ko": "<p>기타 분류되지 않은 쿠키는 분석 중이며 아직 카테고리로 분류되지 않은 쿠키입니다.</p>",
+      "ku": "<p>  </p>",
+      "kj": "<p>  </p>",
+      "lo": "<p>  </p>",
+      "ln": "<p>  </p>",
+      "lg": "<p>  </p>",
+      "lb": "<p>  </p>",
+      "mk": "<p>  </p>",
+      "mg": "<p>  </p>",
+      "ms": "<p>  </p>",
+      "ml": "<p>  </p>",
+      "dv": "<p>  </p>",
+      "mt": "Cookies mhux kategorizzati oħra huma dawk li qed jiġu analizzati u li s'issa għadhom ma ġewx ikklassifikati f'kategorija.",
+      "gv": "<p>  </p>",
+      "mi": "<p>  </p>",
+      "mr": "<p>  </p>",
+      "mh": "<p>  </p>",
+      "mo": "<p>  </p>",
+      "mn": "<p>  </p>",
+      "na": "<p>  </p>",
+      "nv": "<p>  </p>",
+      "ng": "<p>  </p>",
+      "ne": "<p>  </p>",
+      "nd": "<p>  </p>",
+      "se": "<p>  </p>",
+      "nn": "<p>  </p>",
+      "oc": "<p>  </p>",
+      "cu": "<p>  </p>",
+      "or": "<p>  </p>",
+      "om": "<p>  </p>",
+      "os": "<p>  </p>",
+      "pi": "<p>  </p>",
+      "ps": "<p>  </p>",
+      "fa": "<p>  </p>",
+      "pa": "<p>  </p>",
+      "qu": "<p>  </p>",
+      "rm": "<p>  </p>",
+      "sm": "<p>  </p>",
+      "sg": "<p>  </p>",
+      "sa": "<p>  </p>",
+      "sc": "<p>  </p>",
+      "gd": "<p>  </p>",
+      "sr": "<p>Други некатегоризовани колачићи су они колачићи који се тренутно анализирају и још увек нису сврстани у категорију.</p>",
+      "sh": "<p>  </p>",
+      "st": "<p>  </p>",
+      "tn": "<p>  </p>",
+      "sn": "<p>  </p>",
+      "sd": "<p>  </p>",
+      "si": "<p>  </p>",
+      "ss": "<p>  </p>",
+      "sla": "<p>  </p>",
+      "so": "<p>  </p>",
+      "nr": "<p>  </p>",
+      "su": "<p>  </p>",
+      "sw": "<p>  </p>",
+      "tl": "Ang iba pang hindi nakategoryang cookies ay ang mga sinusuri at hindi pa nauuri sa isang kategorya.",
+      "ty": "<p>  </p>",
+      "tg": "<p>  </p>",
+      "ta": "<p>  </p>",
+      "tt": "<p>  </p>",
+      "te": "<p>  </p>",
+      "bo": "<p>  </p>",
+      "ti": "<p>  </p>",
+      "to": "<p>  </p>",
+      "ts": "<p>  </p>",
+      "tk": "<p>  </p>",
+      "tw": "<p>  </p>",
+      "ug": "<p>  </p>",
+      "ur": "<p>  </p>",
+      "uz": "<p>  </p>",
+      "ve": "<p>  </p>",
+      "vi": "<p>  </p>",
+      "cy": "Cwcis eraill heb eu categoreiddio yw’r rhai sy’n cael eu dadansoddi ac nad ydynt wedi’u dosbarthu i gategori eto.",
+      "wo": "<p>  </p>",
+      "xh": "<p>  </p>",
+      "yi": "<p>  </p>",
+      "yo": "<p>  </p>",
+      "za": "<p>  </p>",
+      "zu": "<p>  </p>",
+      "sr-latn": "<p>Ostali nekategorizovani kolačići su oni koji se analiziraju i još uvek nisu svrstani ni u jednu kategoriju.</p>"
+    },
+    "slug": "other",
+    "type": 2,
+    "status": 1,
+    "active": 0,
+    "order": 6,
+    "website_id": 735756,
+    "settings": null,
+    "default_consent": {
+      "ccpa": "0",
+      "gdpr": "0"
+    },
+    "created_at": "2024-07-12T11:59:56.000000Z",
+    "updated_at": "2024-08-02T13:49:18.000000Z",
+    "cookies": [
+      {
+        "id": 11727606,
+        "cookie_id": "marketing_uid",
+        "description": {
+          "en": "Description is currently not available."
+        },
+        "type": 1,
+        "category_id": 4052489,
+        "default_duration": "1 month",
+        "duration": {
+          "en": "1 month"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-08-06T15:09:05.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11727607,
+        "cookie_id": "marketing_updater",
+        "description": {
+          "en": "Description is currently not available."
+        },
+        "type": 1,
+        "category_id": 4052489,
+        "default_duration": "1 month",
+        "duration": {
+          "en": "1 month"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-08-06T15:09:05.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11727608,
+        "cookie_id": "marketing_source",
+        "description": {
+          "en": "Description is currently not available."
+        },
+        "type": 1,
+        "category_id": 4052489,
+        "default_duration": "1 month",
+        "duration": {
+          "en": "1 month"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-08-06T15:09:05.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11727609,
+        "cookie_id": "marketing_created",
+        "description": {
+          "en": "Description is currently not available."
+        },
+        "type": 1,
+        "category_id": 4052489,
+        "default_duration": "1 month",
+        "duration": {
+          "en": "1 month"
+        },
+        "domain": "tripleten.com",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-08-06T15:09:05.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      },
+      {
+        "id": 11727610,
+        "cookie_id": "c_c",
+        "description": {
+          "en": "Description is currently not available."
+        },
+        "type": 0,
+        "category_id": 4052489,
+        "default_duration": "session",
+        "duration": {
+          "en": "session"
+        },
+        "domain": "carbon.now.sh",
+        "website_id": 735756,
+        "script_slug": null,
+        "url_pattern": null,
+        "created_from_scan": 1,
+        "url_pattern_updated": 0,
+        "status": "active",
+        "created_at": "2024-08-06T15:09:05.000000Z",
+        "updated_at": "2024-08-06T15:09:05.000000Z",
+        "data_migrated_at": null
+      }
+    ],
+    "scripts": []
+  }
+]
